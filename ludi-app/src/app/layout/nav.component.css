@@ -62,3 +62,19 @@ ul li .nav-link{
   background: -webkit-linear-gradient(to left, #ff1085,#ff4b37,#e5920a );  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #ff1085,#ff4b37,#e5920a ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.iconResponsive{
+  display: none;
+}
+@media only screen and (max-width: 1000px) {
+    .respo{
+      display: none;
+    }
+    .iconResponsive{
+      display: block;
+      width: 100px;
+      height: 100px;
+      z-index: 2000;
+      margin-right: 50%;
+    }
+
+}
