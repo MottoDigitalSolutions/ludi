@@ -4,7 +4,7 @@ import {map} from 'rxjs/operators';
 
 @Component(
   {
-    selector: 'ngbd-carousel-basic',
+    selector: 'ludi-carousel',
     templateUrl: './carousel-config.html',
     styles: [`
         .size{

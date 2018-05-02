@@ -44,3 +44,11 @@ background: #ffb3b3;  /* fallback for old browsers */
 background: -webkit-linear-gradient(135deg, #ff6118 0%,#ff3553 50%,#ff0099 100% );  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.redes{
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.redes:hover{
+  color: #bfd000;
+}
