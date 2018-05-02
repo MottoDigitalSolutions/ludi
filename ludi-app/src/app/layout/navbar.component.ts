@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class navComponent {
   correo  = 'informes@ludi.com.mx';
   numero = '55 5545 7272';
-  inf = 'F F F F';
+  
 
   navInfo:any = [
     {active: true, navElement: 'INICIO'},
@@ -28,7 +28,7 @@ export class navComponent {
     {dropdownElement:'CHECK UP INTEGRAL'},
     {dropdownElement:'CHECK UP PLUS'},
     {dropdownElement:'CHECK UP GENETEST'},
-    {dropdownElement:'CHECK UP ESPECIALIZADO'}  
+    {dropdownElement:'CHECK UP ESPECIALIZADO'}
 
   ];
 

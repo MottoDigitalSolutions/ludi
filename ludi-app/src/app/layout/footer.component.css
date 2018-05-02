@@ -1,0 +1,47 @@
+.footer_top{
+  padding: 50px;
+  background: #ffb3b3;
+  background: -webkit-linear-gradient(160deg, #bfd000 0%,#ff6611 50%,#ff0099 100% );
+  background: linear-gradient(160deg, #bfd000 0%,#ff6611 50%,#ff0099 100% );
+  font-family: 'Open Sans',sans-serif;
+}
+
+
+.textoFooter{
+  color: white;
+  margin-top: 40px;
+  text-align: justify;
+}
+
+h4  {
+  padding: 10px;
+  color: white;
+}
+
+.infoContacto{
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.link{
+  color: white;
+  font-size: 17px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.footer_botom{
+  height: 6vh;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  padding: 15px;
+background: #ffb3b3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(135deg, #ff6118 0%,#ff3553 50%,#ff0099 100% );  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(140deg, #ff6118 0%,#ff3553 50%,#ff0099 100% ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
