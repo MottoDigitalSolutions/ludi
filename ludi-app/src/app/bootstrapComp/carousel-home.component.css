@@ -1,0 +1,26 @@
+.size{
+  height: 65vh;
+}
+.ref h1{
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  color: #bfd000;
+}
+.ref p{
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #bfd000;
+}
+.conoce{
+  background-color: #ffffff;
+  color: #ff6611;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.conoce:hover{
+  background-color: #ff6611;
+  color: #ffffff;
+}

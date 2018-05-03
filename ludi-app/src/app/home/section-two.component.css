@@ -1,0 +1,48 @@
+.section{
+  background-image: url(http://ludi.com.mx/wp-content/uploads/2017/11/home-prevencion-2.jpg);
+  padding-top: 60px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+.section h1{
+  text-align: center;
+  color: #262626;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 600;
+}
+.section h2{
+  text-align: center;
+  color: #262626;
+  font-family: 'Open Sans Condensed',sans-serif;
+  margin-top: 20px;
+}
+.section div{
+  margin-top: 100px;
+  margin-left: 50%;
+  width: 40%;
+}
+.section div h3{
+  text-align: center;
+  color: #262626;
+  font-family: 'Open Sans Condensed',sans-serif;
+}
+.section div ul{
+  margin-top: 40px;
+}
+.section div ul li{
+  color: #262626;
+  font-family: 'Open Sans Condensed',sans-serif;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.conoce{
+  margin-left: 30%;
+  background-color: #bfd000;
+  color: #fff;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 600;
+  padding: 10px;
+  width: 25%;
+}
