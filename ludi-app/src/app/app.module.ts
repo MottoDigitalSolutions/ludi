@@ -9,6 +9,8 @@ import { footerComponent } from './home/footer.component';
 import { NgbdCarouselBasic } from './bootstrapComp/carousel-config';
 import { carouselHomeComponent } from './bootstrapComp/carousel-home.component';
 import { sectionTwoComponent } from './home/section-two.component';
+import { sectionThreeComponent } from './home/section-three.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { sectionTwoComponent } from './home/section-two.component';
     footerComponent,
     NgbdCarouselBasic,
     carouselHomeComponent,
-    sectionTwoComponent
+    sectionTwoComponent,
+    sectionThreeComponent
   ],
   imports: [
     NgbModule.forRoot(),
