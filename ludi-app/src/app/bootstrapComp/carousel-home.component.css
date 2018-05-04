@@ -1,5 +1,12 @@
+.container-fluid{
+  padding: 0;
+}
 .size{
   height: 65vh;
+  width: 100%;
+}
+.carousel-item{
+  width: 100%;
 }
 .ref h1{
   font-family: 'Open Sans Condensed',sans-serif;
