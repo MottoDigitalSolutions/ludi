@@ -5,18 +5,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 80px;
+  font-family: 'Open Sans',sans-serif;
+
 }
 .section h1{
   text-align: center;
-  color: #262626;
-  font-family: 'Open Sans Condensed',sans-serif;
+  color: #333;
   font-weight: 600;
 }
 .section h2{
   text-align: center;
-  color: #262626;
-  font-family: 'Open Sans Condensed',sans-serif;
+  color: #333;
   margin-top: 20px;
+  font-size: 1.3rem;
 }
 .section div{
   margin-top: 100px;
@@ -25,23 +26,20 @@
 }
 .section div h3{
   text-align: center;
-  color: #262626;
-  font-family: 'Open Sans Condensed',sans-serif;
+  color: #666;
 }
 .section div ul{
   margin-top: 40px;
 }
 .section div ul li{
   color: #262626;
-  font-family: 'Open Sans Condensed',sans-serif;
   margin-top: 20px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .conoce{
   margin-left: 30%;
   background-color: #bfd000;
   color: #fff;
-  font-family: 'Open Sans Condensed',sans-serif;
   font-weight: 600;
   padding: 10px;
   width: 25%;
