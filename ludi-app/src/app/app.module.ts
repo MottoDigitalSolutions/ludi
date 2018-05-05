@@ -4,6 +4,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { DragScrollModule } from 'ngx-drag-scroll';
+import { SlickModule } from 'ngx-slick';
 
 
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { carouselHomeComponent } from './bootstrapComp/carousel-home.component';
 import { sectionTwoComponent } from './home/section-two.component';
 import { sectionThreeComponent } from './home/section-three.component';
 import { sectionFourComponent } from './home/section-four.component';
+import { sectionFiveComponent } from './home/section-five.component';
 
 @NgModule({
   declarations: [
@@ -24,14 +26,16 @@ import { sectionFourComponent } from './home/section-four.component';
     carouselHomeComponent,
     sectionTwoComponent,
     sectionThreeComponent,
-    sectionFourComponent
+    sectionFourComponent,
+    sectionFiveComponent
   ],
   imports: [
     NgbModule.forRoot(),
     HttpClientModule,
     BrowserModule,
     AngularFontAwesomeModule,
-    DragScrollModule
+    DragScrollModule,
+    SlickModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
