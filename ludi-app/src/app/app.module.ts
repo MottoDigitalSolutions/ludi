@@ -14,6 +14,9 @@ import { carouselHomeComponent } from './bootstrapComp/carousel-home.component';
 import { sectionTwoComponent } from './home/section-two.component';
 import { sectionThreeComponent } from './home/section-three.component';
 import { sectionFourComponent } from './home/section-four.component';
+import { PromocionesComponent } from './promociones/promociones.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -24,14 +27,17 @@ import { sectionFourComponent } from './home/section-four.component';
     carouselHomeComponent,
     sectionTwoComponent,
     sectionThreeComponent,
-    sectionFourComponent
+    sectionFourComponent,
+    PromocionesComponent,
+    HomeComponent,
   ],
   imports: [
     NgbModule.forRoot(),
     HttpClientModule,
     BrowserModule,
     AngularFontAwesomeModule,
-    DragScrollModule
+    DragScrollModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
