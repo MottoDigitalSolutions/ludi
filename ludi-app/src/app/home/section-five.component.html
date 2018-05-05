@@ -1,0 +1,22 @@
+<div class="container-fluid back">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="test">TESTIMONIOS</h1>
+      </div>
+      <div class="col-2 quoteLeft">
+        <span class="fa fa-quote-left"></span>
+      </div>
+      <div class="col-8 carousel">
+        <ngx-slick #slickModal="slick-modal" [config]="slideConfig" (afterChange)="afterChange($event)">
+        <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+              <p>{{slide.text}}</p>
+        </div>
+    </ngx-slick>
+      </div>
+      <div class="col-2 quoteRight">
+        <span class=" fa fa-quote-right"></span>
+      </div>
+    </div>
+  </div>
+</div>

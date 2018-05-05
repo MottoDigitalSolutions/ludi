@@ -4,6 +4,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { DragScrollModule } from 'ngx-drag-scroll';
+import { SlickModule } from 'ngx-slick';
 
 
 import { AppComponent } from './app.component';
@@ -37,7 +38,8 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AngularFontAwesomeModule,
     DragScrollModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SlickModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
