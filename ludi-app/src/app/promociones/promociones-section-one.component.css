@@ -1,0 +1,44 @@
+h1 {
+  padding-top: 5%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.carousel-item {
+  padding: 2% 15% 2% 15%;
+  text-align: center;
+}
+
+h4 {
+  text-transform: capitalize;
+  color:#666;
+  font-weight: bold;
+}
+
+.btn-ludi {
+  background-color: #bfd000;
+  font-family: 'Open Sans Condensed';
+  border: none;
+  letter-spacing: 2.7px;
+  padding: 3%;
+}
+
+.btn-ludi:hover {
+  background-color: #A9AE22;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 750px) {
+  .carousel-item {
+    padding: 2%;
+    margin: auto;
+  }
+
+  .btn-ludi {
+    margin-bottom: 5%;
+  }
+}
+
+img {
+  margin: auto;
+}
