@@ -20,6 +20,9 @@ import { PromocionesComponent } from './promociones/promociones.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
 
+import { PromocionesBannerComponent } from './promociones/banner.component';
+import { PromocionesSectionOneComponent } from './promociones/promociones-section-one.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +36,8 @@ import { HomeComponent } from './home/home.component';
     sectionFiveComponent,
     PromocionesComponent,
     HomeComponent,
+    PromocionesBannerComponent,
+    PromocionesSectionOneComponent,
   ],
   imports: [
     NgbModule.forRoot(),

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PromocionesBannerComponent } from './banner.component';
 
 @Component({
   selector: 'app-promociones',
