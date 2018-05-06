@@ -1,0 +1,23 @@
+<div class="container-fluid color">
+  <h1>ÚLTIMAS PUBLICACIONES</h1>
+  <div class="container">
+    <div class="row">
+    <ng-container *ngFor="let publicaciones of publicacion">
+      <div class="col-md-4 col-sm-6">
+        <div class="contenedor">
+          <img src="{{publicaciones.img}}" alt="" class="img">
+          <h3>{{publicaciones.titulo}}</h3>
+          <hr class="hr">
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;{{publicaciones.detalle}}</p>
+          <br><br>
+          <hr>
+            <img src="{{publicaciones.logo}}" alt="" class="logo">
+            <span class="user">ludi8088</span>
+            <span class="fecha">{{publicaciones.fecha}}</span>
+        </div>
+      </div>
+    </ng-container>
+    </div>
+    <button type="button" name="button" class="btn blog">VER BLOG</button>
+  </div>
+</div>

@@ -16,6 +16,8 @@ import { sectionTwoComponent } from './home/section-two.component';
 import { sectionThreeComponent } from './home/section-three.component';
 import { sectionFourComponent } from './home/section-four.component';
 import { sectionFiveComponent } from './home/section-five.component';
+import { sectionSixComponent } from './home/section-six.component';
+import { sectionSevenComponent } from './home/section-seven.component';
 import { PromocionesComponent } from './promociones/promociones.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
@@ -34,10 +36,13 @@ import { PromocionesSectionOneComponent } from './promociones/promociones-sectio
     sectionThreeComponent,
     sectionFourComponent,
     sectionFiveComponent,
+    sectionSixComponent,
+    sectionSevenComponent,
     PromocionesComponent,
     HomeComponent,
     PromocionesBannerComponent,
     PromocionesSectionOneComponent,
+
   ],
   imports: [
     NgbModule.forRoot(),
