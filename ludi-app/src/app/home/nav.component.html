@@ -36,19 +36,39 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto nav-fill">
-          <ng-container *ngFor="let nav of navInfo">
-            <li class="nav-item" *ngIf="nav.active">
-              <a class="nav-link" href="#"> {{nav.navElement}}</a>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/']"> {{inicio}}</a>
             </li>
-              <li class="nav-item dropdown" *ngIf="nav.active !== true">
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/promociones']"> {{prom}}</a>
+            </li>
+              <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  {{nav.navElement}}
+                  {{check}}
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#" *ngFor="let drop of navInfoDrow">{{drop.dropdownElement}}</a>
+                  <a class="dropdown-item" href="#" >{{preven}}</a>
+                  <a class="dropdown-item" href="#" >{{que}}</a>
+                  <a class="dropdown-item" href="#" >{{empresarial}}</a>
+                  <a class="dropdown-item" href="#" >{{integral}}</a>
+                  <a class="dropdown-item" href="#" >{{plus}}</a>
+                  <a class="dropdown-item" href="#" >{{gene}}</a>
+                  <a class="dropdown-item" href="#" >{{espe}}</a>
                 </div>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> {{empre}}</a>
             </li>
-          </ng-container>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> {{nos}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> {{blog}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> {{contac}}</a>
+            </li>
+
           </ul>
         </div>
       </nav>
