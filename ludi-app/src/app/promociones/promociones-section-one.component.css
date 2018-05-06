@@ -10,7 +10,7 @@ h1 {
 }
 
 h4 {
-  text-transform: capitalize;
+  text-transform: uppercase;
   color:#666;
   font-weight: bold;
 }
@@ -27,7 +27,23 @@ h4 {
   background-color: #A9AE22;
 }
 
-/* Extra small devices (phones, 600px and down) */
+img {
+  margin: auto;
+}
+
+.carousel-indicators li {
+  background-color: #bbb;
+  height:10px;
+  width:10px;
+  border-radius: 100%;
+  bottom: 0px;
+}
+
+.carousel-indicators .active {
+  background-color: #000;
+}
+
+/* Plus phones (iPhone+, S9+) (phones, 750px and down) */
 @media only screen and (max-width: 750px) {
   .carousel-item {
     padding: 2%;
@@ -37,8 +53,4 @@ h4 {
   .btn-ludi {
     margin-bottom: 5%;
   }
-}
-
-img {
-  margin: auto;
 }
