@@ -21,6 +21,8 @@ import { sectionSevenComponent } from './home/section-seven.component';
 import { PromocionesComponent } from './promociones/promociones.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { prevencionComponent } from './check-ups/prevencion.component';
+import { prevencionSectionsComponent } from './check-ups/prevencion-sections.component';
 
 import { PromocionesBannerComponent } from './promociones/banner.component';
 import { PromocionesSectionOneComponent } from './promociones/promociones-section-one.component';
@@ -42,6 +44,8 @@ import { PromocionesSectionOneComponent } from './promociones/promociones-sectio
     HomeComponent,
     PromocionesBannerComponent,
     PromocionesSectionOneComponent,
+    prevencionComponent,
+    prevencionSectionsComponent
 
   ],
   imports: [
