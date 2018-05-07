@@ -1,0 +1,30 @@
+<div class="container-fluid color">
+  <div class="container">
+    <div class="row">
+      <h1 class="col-md-12">¡AGENDA TU CITA!</h1>
+      <h2 class="col-md-12">Llevamos el kit para tu check up hasta tu casa</h2>
+      <form  (ngSubmit)="onSubmit(f)" #f="ngForm"  class="row">
+        <p class="col-md-12">Datos Personales</p>
+        <input class="col-md-5" type="text" name="nombre" placeholder="Nombre" ngModel>
+        <input class="col-md-5" type="text" name="empresa" placeholder="Empresa" ngModel>
+        <input class="col-md-5" type="mail" name="correo" placeholder="Correo" ngModel>
+        <input class="col-md-5" type="num" name="telefono" placeholder="Teléfono" ngModel>
+        <input class="col-md-5" type="number" name="edad" placeholder="Edad" ngModel>
+        <select class="col-md-5" name="genero" placeholder="Genero" ngModel>
+          <option value="hombre">Hombre</option>
+          <option value="mujer">Mujer</option>
+        </select>
+        <p class="col-md-12">¿En qué podemos ayudarte?</p>
+        <button type="button" class="col-md-3 col-sm-6 boton" (click)="IntegralFunc()" [ngStyle]="{'background-color': IntegralColor}" >Check Up Integral</button>
+        <button type="button" class="col-md-3 col-sm-6 boton" (click)="PlusFunc()" [ngStyle]="{'background-color': PlusColor}" >Check Up Plus</button>
+        <button type="button" class="col-md-3 col-sm-6 boton" (click)="EspecialidadFunc()" [ngStyle]="{'background-color': EspecialidadColor}" >Check Up Especialidad</button>
+        <button type="button" class="col-md-3 col-sm-6 boton" (click)="GenetestFunc()" [ngStyle]="{'background-color': GenetestColor}" >Check Up Genetest</button>
+        <button type="button" class="col-md-3 col-sm-6 boton" (click)="EmpresarialFunc()" [ngStyle]="{'background-color': EmpresarialColor}" >Check Up Empresarial</button>
+
+        <textarea class="col-md-12" name="comentario" placeholder="Escribe aqui tus comentarios..." ngModel></textarea>
+        <button type="submit" class="enviar">ENVIAR</button>
+        <p class="col-md-12">al enviar mis datos acepto la <a href="#" class="politica">Politica de Privacidad.</a> </p>
+      </form>
+    </div>
+  </div>
+</div>

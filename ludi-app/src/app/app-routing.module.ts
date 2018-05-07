@@ -5,7 +5,7 @@ import { PromocionesComponent }        from './promociones/promociones.component
 import { prevencionComponent } from './check-ups/prevencion.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'promociones', component: PromocionesComponent },
   { path: 'prevencion', component: prevencionComponent }
 ];

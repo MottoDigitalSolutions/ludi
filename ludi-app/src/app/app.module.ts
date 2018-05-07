@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { DragScrollModule } from 'ngx-drag-scroll';
 import { SlickModule } from 'ngx-slick';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
@@ -23,6 +24,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { prevencionComponent } from './check-ups/prevencion.component';
 import { prevencionSectionsComponent } from './check-ups/prevencion-sections.component';
+import { prevencionSectionsTwoComponent } from './check-ups/prevencion-sectionesTwo.component';
 
 import { PromocionesBannerComponent } from './promociones/banner.component';
 import { PromocionesSectionOneComponent } from './promociones/promociones-section-one.component';
@@ -45,7 +47,8 @@ import { PromocionesSectionOneComponent } from './promociones/promociones-sectio
     PromocionesBannerComponent,
     PromocionesSectionOneComponent,
     prevencionComponent,
-    prevencionSectionsComponent
+    prevencionSectionsComponent,
+    prevencionSectionsTwoComponent
 
   ],
   imports: [
@@ -55,7 +58,9 @@ import { PromocionesSectionOneComponent } from './promociones/promociones-sectio
     AngularFontAwesomeModule,
     DragScrollModule,
     AppRoutingModule,
-    SlickModule.forRoot()
+    SlickModule.forRoot(),
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
